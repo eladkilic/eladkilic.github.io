@@ -29,7 +29,7 @@ function showWelcomeMessage(name){
 }
 
 function changeBackground() {
-    document.body.style.backgroundImage = "url('file:/C:/Users/eladk/Downloads/sitem/background2.jpeg')";
+    document.body.style.backgroundImage = "url('images/background2.jpeg')";
 }
 
 function showCalculatorScreen(){
