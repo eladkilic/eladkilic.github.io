@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('file:/C:/Users/eladk/Downloads/sitem/background1.jpeg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.welcome-screen {
+    text-align:center;
+}
+
+#welcomeButton {
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: #fad2e1;
+    border: 2px solid #f282ab;
+    border-radius: 40px;
+    color: #463f3a;
+    cursor:pointer;
+    transition: background-color 0.4s, color 0.4s;
+
+    white-space: nowrap;
+    overflow: hidden;
+
+    position: absolute;
+    top:25%;
+    transform: translate(-50%, -50%);
+}
+
+#welcomeButton:hover {
+    background-color: #f282ab;
+    color: white;
+}
+
+
+.welcome-message-screen {
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.welcome-message-screen h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #272422;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.welcome-message-screen button {
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: #93B290;
+    border: 2px solid #495948;
+    border-radius: 40px;
+    color: #463f3a;
+    cursor:pointer;
+    transition: background-color 0.4s, color 0.4s;
+
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.welcome-message-screen button:hover {
+    background-color: #667C64;
+    color: white;
+}
